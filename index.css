@@ -8,7 +8,7 @@ main {
   scrollbar-width: none;
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   display: none;
 }
 
@@ -63,7 +63,7 @@ main {
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .w-30 {
@@ -87,7 +87,7 @@ main {
   background-color: #36b37f;
   color: aliceblue;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .bg-btn:hover {
@@ -117,7 +117,7 @@ main {
   min-height: 50px;
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .w-3 {
     width: 100%;
   }
