@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="logo" width="140"  height="auto" />
   <br/>
 </div>
 
@@ -22,7 +22,7 @@
 
 # Portfolio <a name="about-project"></a>
 
-**Portfolio** is a personal portfolio project.
+**Portfolio with Bootstrap** is a personal portfolio project.
 
 ## Built With <a name="built-with"></a>
 
@@ -70,6 +70,10 @@
 - GitHub: [@nyz83](https://github.com/nyz83)
 - Twitter: [@noth_nyz](https://twitter.com/noth_nyz)
 - LinkedIn: [Nyi Ye Zin](https://www.linkedin.com/in/nyiyezin83/)
+
+**Author2**
+
+- GitHub: [@lizzy-km](https://github.com/lizzy-km)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
