@@ -1,307 +1,626 @@
 <!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Portfolio collaboration</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Title</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-    crossorigin="anonymous" />
-  <link rel="stylesheet" type="" href="/index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <header class="cointainer">
-    <nav class="navbar navbar-expand-md navbar" aria-label="Main navigation">
-      <div class="container-fluid">
-        <button id="navbarSideCollapse" class="navbar-toggler ms-auto p-0 border-0" type="button"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarsExampleDefault" class="navbar-collapse offcanvas-collapse">
-          <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="header-hero-wrapper min-vh-100">
-      <div
-        class="header-hero container d-flex flex-column align-items-center align-self-center text-center">
-        <h1>Hey there. I’m Alex.</h1>
-        <h1>I’m a software developer</h1>
-        <p>
-          I can help you build a product , feature or website Look through
-          some of my work and experience! If you like what you see and have a
-          project you need coded, don’t hesitate to contact me.
-        </p>
-      </div>
-      <div class="d-flex justify-content-center gap-4">
-        <a href="#">
-          <img class="social-icons-img" src="./assets/twitter.svg" alt="twitter"
-            data-bs-toggle="tooltip" title="Twitter" data-bs-placement="top" />
-        </a>
-        <a href="#">
-          <img class="social-icons-img" src="./assets/linkedin.svg" alt="linkedin"
-            data-bs-toggle="tooltip" title="LinkedIn" data-bs-placement="top" />
-        </a>
-        <a href="#">
-          <img class="social-icons-img" src="./assets/mastodon.svg" alt="mastodon"
-            data-bs-toggle="tooltip" title="Mastodon" data-bs-placement="top" />
-        </a>
-        <a href="#">
-          <img class="social-icons-img" src="./assets/github.svg" alt="github"
-            data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top" />
-        </a>
-        <a class="link" href="#">
-          <img class="social-icons-img" src="./assets/random.svg" alt="random"
-            data-bs-toggle="tooltip" title="Random" data-bs-placement="top" />
-        </a>
-      </div>
-    </div>
-  </header>
-
-  <main
-    class="d-flex gap-5 justify-content-evenly flex-column h-screen mt-4 align-items-center w-full">
-    <div class="w-full h-auto justify-content-center d-flex flex-column align-items-center">
-      <div class="text-work fw-bold text-center text-dark">
-        My Recent Work
-      </div>
-      <div class="w-25 rounded d-flex h-auto d-lg-none bg-border"></div>
-    </div>
-    <div class="d-flex flex-row flex-wrap w-90 h-90 justify-content-evenly gap-4">
-      <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
-        <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-evenly align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-lg-3">
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
-            </div>
-          </div>
-
+  <body>
+    <header class="cointainer">
+      <nav class="navbar navbar-expand-md navbar" aria-label="Main navigation">
+        <div class="container-fluid">
+          <button
+            id="navbarSideCollapse"
+            class="navbar-toggler ms-auto p-0 border-0"
+            type="button"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
+            id="navbarsExampleDefault"
+            class="navbar-collapse offcanvas-collapse"
+          >
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+
+      <div class="header-hero-wrapper min-vh-100">
+        <div
+          class="header-hero container d-flex flex-column align-items-center align-self-center text-center"
+        >
+          <h1>Hey there. I'm Alex.</h1>
+          <h1>I'm a software developer</h1>
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don't hesitate to contact me.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#">
+            <img
+              class="social-icons-img"
+              src="./assets/twitter.svg"
+              alt="twitter"
+              data-bs-toggle="tooltip"
+              title="Twitter"
+              data-bs-placement="top"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icons-img"
+              src="./assets/linkedin.svg"
+              alt="linkedin"
+              data-bs-toggle="tooltip"
+              title="LinkedIn"
+              data-bs-placement="top"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icons-img"
+              src="./assets/mastodon.svg"
+              alt="mastodon"
+              data-bs-toggle="tooltip"
+              title="Mastodon"
+              data-bs-placement="top"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icons-img"
+              src="./assets/github.svg"
+              alt="github"
+              data-bs-toggle="tooltip"
+              title="GitHub"
+              data-bs-placement="top"
+            />
+          </a>
+          <a class="link" href="#">
+            <img
+              class="social-icons-img"
+              src="./assets/random.svg"
+              alt="random"
+              data-bs-toggle="tooltip"
+              title="Random"
+              data-bs-placement="top"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main
+      class="d-flex gap-5 justify-content-evenly flex-column h-screen mt-4 align-items-center w-full"
+    >
+      <div
+        class="w-full h-auto justify-content-center d-flex flex-column align-items-center"
+      >
+        <div class="text-work fw-bold text-center text-dark">
+          My Recent Work
+        </div>
+        <div class="w-25 rounded d-flex h-auto d-lg-none bg-border"></div>
       </div>
       <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
+        class="d-flex flex-row flex-wrap w-90 h-90 justify-content-evenly gap-4"
+      >
         <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
+          <div
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-evenly align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
             <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              class="w-full h-auto gap-2 d-flex justify-content-evenly px-lg-3"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
             </div>
+
             <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
             </div>
           </div>
-
+        </div>
+        <div
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
           <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
+            <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
+            </div>
+
+            <div
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
+          <div
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
+            <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
+            </div>
+
+            <div
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
+          <div
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
+            <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
+            </div>
+
+            <div
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
+          <div
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
+            <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
+            </div>
+
+            <div
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded"
+        >
+          <div class="w-full h-60 rounded"></div>
+          <div
+            class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center"
+          >
+            <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
+            <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Css</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">Javascript</div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25"
+              >
+                <div class="text-12 py-1 text-center px-2">HTML</div>
+              </div>
+            </div>
+            <div
+              class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20"
+            >
+              <div class="text-17 text-center px-2 py-2">See Project</div>
+            </div>
           </div>
         </div>
       </div>
+    </main>
+    <section class="d-flex flex-row flex-wrap w-full h-100 mt-5 p-4 gap-3">
       <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
+        class="about-me-wrapper d-flex flex-column px-2 py-0 align-items-center gap-2"
+      >
         <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
+          class="w-75 h-90 about-me d-flex flex-column align-items-center justify-content-center gap-3"
+        >
+          <h2>About me</h2>
+          <p class="text-center">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don't hesitate to contact me.
+          </p>
+          <button type="button" class="btn btn-success">Get my resume</button>
+        </div>
+        <div
+          class="container d-flex flex-column align-items-center justify-content-center mt-4 gap-2"
+        >
+          <div class="row justify-content-center">
+            <div class="col-sm-4 d-flex gap-2">
+              <div
+                class="h-100 card rounded-2 bg-secondary-subtle border border border-dark-subtle p-2 mb-2 gap-2"
+                style="width: 24rem"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/Icon-1.svg"
+                    class="language-icon d-flex align-items-center mb-0"
+                    alt="language-icon"
+                  />
+                  <h5 class="card-title text-center mt-0">Languages</h5>
+                </div>
+                <ul
+                  class="list-group list-group-flush d-flex flex-row align-items-center justify-content-center gap-2 mb-5"
+                >
+                  <li
+                    class="list-group-item border rounded-2 fs-7 text-success"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="list-group-item border rounded-2 fs-7 text-success"
+                  >
+                    Ruby
+                  </li>
+                  <li
+                    class="list-group-item border rounded-2 fs-7 text-success"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="list-group-item border rounded-2 fs-7 text-success"
+                  >
+                    CSS
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
+            <div class="col-sm-4 d-flex mt-2 p-2 gap-2">
+              <div
+                class="h-100 card rounded-2 bg-dark-subtle border border border-dark-subtle p-2 mb-2 gap-2"
+                style="width: 24rem"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/Icon-2.svg"
+                    class="framework-icon"
+                    alt="framework-icon"
+                  />
+                  <h5 class="card-title text-center">Frameworks</h5>
+                </div>
+                <ul
+                  class="list-group list-group-flush d-flex flex-column align-items-center gap-2"
+                >
+                  <div class="list-item d-flex flex-row gap-2">
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      React.js
+                    </li>
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      Ruby on Rails
+                    </li>
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      RSpec
+                    </li>
+                  </div>
+                  <div class="list-item d-flex flex-row gap-2">
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      Capybara
+                    </li>
+                  </div>
+                </ul>
+              </div>
             </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
+            <div class="col-sm-4 d-flex mt-2 p-2 gap-2">
+              <div
+                class="h-100 card rounded-2 bg-dark-subtle border border border-dark-subtle p-2 mb-2 gap-2"
+                style="width: 24rem"
+              >
+                <div class="card-body">
+                  <img
+                    src="./assets/Icon-3.svg"
+                    class="skill-icon"
+                    alt="skill-icon"
+                  />
+                  <h5 class="card-title text-center">Skills</h5>
+                </div>
+                <ul
+                  class="list-group list-group-flush d-flex flex-column align-items-center gap-2"
+                >
+                  <div class="list-item d-flex flex-row gap-2">
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      Database Management
+                    </li>
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      Version Control
+                    </li>
+                  </div>
+                  <div class="list-item d-flex flex-row gap-2">
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      CLI
+                    </li>
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      Web Development
+                    </li>
+                    <li
+                      class="list-group-item border rounded-2 fs-7 text-success"
+                    >
+                      API Design
+                    </li>
+                  </div>
+                </ul>
+              </div>
             </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
-            </div>
-          </div>
-
-          <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
           </div>
         </div>
       </div>
-      <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
-        <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
-            </div>
-          </div>
-
-          <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
-          </div>
+    </section>
+    <form action="https://formspree.io/f/xwkdwqdb" method="post">
+      <div class="row d-flex flex-column gap-3">
+        <div class="col-md-6">
+          <h3>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+        </div>
+        <div class="col-md-6">
+          <input
+            type="text"
+            name="full_name"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+          <input
+            type="text"
+            name="full_name"
+            id="name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
         </div>
       </div>
-      <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
-        <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
-            </div>
-          </div>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email address"
+        required
+      />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Write me something..."
+        maxlength="300"
+        required
+      ></textarea>
+      <button type="submit">Get in touch</button>
+    </form>
+    <img
+      src="images/desktop bottom line.svg"
+      alt="desktop-bottom-line"
+      class="desktop-line"
+    />
+    <footer class="navigation">
+      <a
+        href="https://github.com/K-mone"
+        target="_blank"
+        title="Github profile"
+        rel="noopener"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/__k_mone__"
+        target="_blank"
+        title="Instagram profile"
+        rel="noopener"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/kyayemone-win-2bb151217"
+        target="_blank"
+        title="LinkedIn profile"
+        rel="noopener"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-angellist"></i></a>
+    </footer>
 
-          <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="w-3 flex-column bg-secondary bg-opacity-25 d-flex justify-content-between h-75 shadow-sm rounded">
-        <div class="w-full h-60 rounded"></div>
-        <div
-          class="w-full h-100 rounded bg-white flex-column d-flex justify-content-center align-items-center">
-          <h4 class="text-center text-24">Multi-Post Stories Gain+Glory</h4>
-          <div class="w-full h-auto gap-2 d-flex justify-content-evenly px-3">
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Ruby on Rails</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Css</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">Javascript</div>
-            </div>
-            <div
-              class="d-flex justify-content-center align-items-center rounded-1 h-auto bg-secondary bg-opacity-25">
-              <div class="text-12 py-1 text-center px-2">HTML</div>
-            </div>
-          </div>
-          <div
-            class="rounded-1 flex-column mt-4 bg-btn d-flex justify-content-center align-items-center w-20">
-            <div class="text-17 text-center px-2 py-2">See Project</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-  <div class="w-full bot-h"></div>
+    <script>
+      // For Mobile Navigation
+      (() => {
+        document
+          .querySelector("#navbarSideCollapse")
+          .addEventListener("click", () => {
+            document
+              .querySelector(".offcanvas-collapse")
+              .classList.toggle("open");
+            document.querySelector(".navbar-toggler").classList.toggle("open");
+          });
+      })();
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <script>
-    // For Mobile Navigation
-    (() => {
-      document
-        .querySelector("#navbarSideCollapse")
-        .addEventListener("click", () => {
-          document
-            .querySelector(".offcanvas-collapse")
-            .classList.toggle("open");
-          document.querySelector(".navbar-toggler").classList.toggle("open");
-        });
-    })();
-  </script>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
